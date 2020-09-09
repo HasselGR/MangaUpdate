@@ -32,13 +32,16 @@ const createNotification = ({id, iconUrl, title, message, buttonLabel, type}) =>
     },)
 }
 browser.notifications.onButtonClicked.addListener(function(notificationId,buttonIndex){
-    if (notificationId==="initialize" && buttonIndex === 0) {
-        browser.notifications.clear("initialize")
+    if ((notificationId==="initialize" || notificationId==="change") && buttonIndex === 0) {
+        browser.notifications.clear(notificationId)
     }else if (notificationId==="update" && buttonIndex === 0){
-        browser.tabs.create({
-            index:0,
-            url: 'https://mangaowl.net/single/150/boku-no-hero-academia',
-            active:true,
+        let page = browser.storage.sync.get('website');
+        page.then((data) => {
+            var site = browser.tabs.create({
+                index:0,
+                url: data.website,
+                active:false,
+            })
         })
         browser.notifications.clear("update")
     }
