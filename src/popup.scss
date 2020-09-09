@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    border-style: solid;
+    border-width: 5px 5px;
+    border-color: rgb(86, 136, 199);
+    border-radius: 6px;
+    background-color: rgba(5, 41, 158, 0.1);
+}
+
+h1{
+    text-align: center;
+    color: #136F63;
+}
+
+
+h2{
+    text-align: right;
+}
+
+p{
+    text-align: left;
+}
+
+#go{
+    display:flex;
+    color:#D7DEDC;
+    border: 2px solid #F6AE2D;
+    border-radius: 30px;
+    justify-self: center;
+    align-self: center;
+    background-color: #BE8A60;
+    opacity: 0.8;
+    transition:0.3s;
+    margin-left: 25px;
+}
+
+#go:hover {
+    opacity: 1;
+}
