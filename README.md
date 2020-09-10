@@ -9,7 +9,9 @@
 
 # How to use
 
-> After installing the extension, it will open a tab in [MangaOwl] (https://mangaowl.net/) to take the last chapter of a manga, register it, and closing it, watching hourly for future updates on the page, if there is a new chapter the app will notify. the Manga put by default is [Boku No Hero Academia] (https://mangaowl.net/single/150/boku-no-hero-academia), but you can change it in the options of the extension, but be sure it is a manga of MangaOwl, because if it isn't it wont work.
+> After installing the extension, it will open a tab in #### [MangaOwl] (https://mangaowl.net/) to take the last chapter of a manga, register it, and closing it, watching hourly for future updates on the page, if there is a new chapter the app will notify. the Manga put by default is #### [Boku No Hero Academia] (https://mangaowl.net/single/150/boku-no-hero-academia), but you can change it in the options of the extension, but be sure it is a manga of MangaOwl, because if it isn't it wont work.
+
+>To check the name of the last chapter just click on the popup of MangaUpdate, it will show where the manga stands and you will be able to go to the manga page from there.
 
 ## Development
 
