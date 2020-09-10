@@ -1,11 +1,15 @@
 # manga-update [![Build Status][travis-image]][travis-url]
 
-> My super extension
+> Know if your favorite manga came out with just a click!
 
 ## Install
 
 #### [Chrome extension]()
 #### [Firefox add-on]()
+
+# How to use
+
+> After installing the extension, it will open a tab in [MangaOwl] (https://mangaowl.net/) to take the last chapter of a manga, register it, and closing it, watching hourly for future updates on the page, if there is a new chapter the app will notify. the Manga put by default is [Boku No Hero Academia] (https://mangaowl.net/single/150/boku-no-hero-academia), but you can change it in the options of the extension, but be sure it is a manga of MangaOwl, because if it isn't it wont work.
 
 ## Development
 
